@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alayor Photography | Premium Studio & Portraits</title>
+    <meta name="description" content="Capture your stories with Alayor Photography. Studio sessions for Birthdays, Maternity, and Preweddings in Lagos.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Glass Header & Nav -->
+    <header class="header">
+        <a href="#home" class="logo">
+            <img src="logo.png" alt="Alayor Photography Logo" class="nav-logo">
+        </a>
+        <nav class="nav">
+            <a href="#home" class="active">Home</a>
+            <a href="#rates">Rates</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#about">About</a>
+            <a href="#testimonials">Reviews</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <a href="#contact" class="btn secondary header-cta">Book Now</a>
+        <div class="mobile-toggle" id="mobile-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero container">
+            <div class="hero-grid">
+                <div class="hero-content fade-in-up">
+                    <img src="logo.png" alt="Alayor Photography Logo" class="hero-logo mt-3" style="max-height: 48px; width: auto; margin-bottom: 1rem;">
+                    <h1>Capture.<br>Create.<br><span class="gradient-text">Cherish.</span></h1>
+                    <p>Creating timeless memories through the lens. Experience premium studio sessions in Lagos, tailored to preserve your life's most beautiful chapters.</p>
+                    <div class="hero-btns">
+                        <a href="#rates" class="btn primary">Explore Rates</a>
+                        <a href="#contact" class="btn secondary">Book Session</a>
+                    </div>
+                </div>
+                <div class="hero-showcase fade-in-up delay-1">
+                    <div class="showcase-container">
+                        <div class="showcase-lens">
+                            <div class="showcase-image">
+                                <img id="hero-gallery-img" src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Alayor Photography Showcase">
+                            </div>
+                        </div>
+                        <div class="showcase-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Studio Rates Section (PDF Rate Card Content) -->
+        <section id="rates" class="rates section-padding container">
+            <div class="section-header reveal">
+                <h2>Studio Rates</h2>
+                <p>Simple, transparent packages for your special milestones. No hidden fees.</p>
+            </div>
+
+            <div class="pricing-grid">
+                <!-- Birthday Package -->
+                <div class="pricing-card glass-card reveal">
+                    <div class="pricing-badge">Birthday</div>
+                    <div class="pricing-image">
+                        <img src="https://images.unsplash.com/photo-1518104593124-ac2e82a5eb9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Birthday Shoot">
+                    </div>
+                    <h3 class="pricing-title">Birthday</h3>
+                    <div class="pricing-price">₦70,000</div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                            One outfit
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                            In our studio
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                            60 minute session
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                            5 edited images
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                            Online gallery
+                        </li>
+                    </ul>
+                    <a href="#contact" class="btn secondary btn-book" data-package="birthday">Book Session</a>
+                </div>
+
+                <!-- Maternity Package -->
+                <div class="pricing-card glass-card reveal delay-1">
+                    <div class="pricing-badge">Maternity</div>
+                    <div class="pricing-image">
+                        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Maternity Shoot">
+                    </div>
+                    <h3 class="pricing-title">Maternity</h3>
+                    <div class="pricing-price">₦80,000</div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                            One outfit
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                            In our studio
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                            60 minute session
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                            5 edited images
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                            Online gallery
+                        </li>
+                    </ul>
+                    <a href="#contact" class="btn secondary btn-book" data-package="maternity">Book Session</a>
+                </div>
+
+                <!-- Prewedding Package -->
+                <div class="pricing-card glass-card reveal delay-2">
+                    <div class="pricing-badge">Prewedding</div>
+                    <div class="pricing-image">
+                        <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Prewedding Shoot">
+                    </div>
+                    <h3 class="pricing-title">Prewedding</h3>
+                    <div class="pricing-price">₦100,000</div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                            One outfit
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                            In our studio
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                            60 minute session
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                            5 edited images
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                            Online gallery
+                        </li>
+                    </ul>
+                    <a href="#contact" class="btn secondary btn-book" data-package="prewedding">Book Session</a>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5 reveal">
+                <p style="font-size: 1.1rem; color: var(--text-secondary); font-style: italic;">Have something unique in mind? Let's bring it to life.</p>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio section-padding container">
+            <div class="section-header reveal">
+                <h2>Featured Work</h2>
+                <p>A glimpse into our recent stories and campaigns.</p>
+            </div>
+
+            <div class="portfolio-filters reveal">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="weddings">Weddings</button>
+                <button class="filter-btn" data-filter="birthdays">Birthdays</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="fashion">Fashion</button>
+            </div>
+
+            <div class="portfolio-grid reveal">
+                <div class="portfolio-item weddings">
+                    <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Wedding 1">
+                    <div class="item-overlay">
+                        <h3>Elegant Nuptials</h3>
+                        <span>Weddings</span>
+                    </div>
+                </div>
+                <div class="portfolio-item birthdays">
+                    <img src="https://images.unsplash.com/photo-1518104593124-ac2e82a5eb9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Birthday 1">
+                    <div class="item-overlay">
+                        <h3>Birthday Celebration</h3>
+                        <span>Birthdays</span>
+                    </div>
+                </div>
+                <div class="portfolio-item commercial">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Commercial 1">
+                    <div class="item-overlay">
+                        <h3>Brand Campaign</h3>
+                        <span>Commercial</span>
+                    </div>
+                </div>
+                <div class="portfolio-item weddings">
+                    <img src="https://images.unsplash.com/photo-1606800052052-a08af7148866?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Wedding 2">
+                    <div class="item-overlay">
+                        <h3>The First Dance</h3>
+                        <span>Weddings</span>
+                    </div>
+                </div>
+                <div class="portfolio-item fashion">
+                    <img src="https://images.unsplash.com/photo-1517482435422-b6748dbcc0d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Fashion 1">
+                    <div class="item-overlay">
+                        <h3>Editorial Shoot</h3>
+                        <span>Fashion</span>
+                    </div>
+                </div>
+                <div class="portfolio-item events">
+                    <img src="https://images.unsplash.com/photo-1505236858219-8359eb29e329?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Event 1">
+                    <div class="item-overlay">
+                        <h3>Corporate Gala</h3>
+                        <span>Events</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding container">
+            <div class="about-grid">
+                <div class="about-image reveal">
+                    <img src="ceo.jpg" alt="Alayode Sunmoni - CEO & Lead Photographer">
+                    <div class="experience-badge">
+                        <span class="years">11+</span>
+                        <span class="text">Years<br>Experience</span>
+                    </div>
+                </div>
+                <div class="about-content reveal delay-1">
+                    <div class="section-header align-left" style="margin-bottom: 2rem;">
+                        <h2>Alayode Sunmoni</h2>
+                        <p class="gradient-text" style="font-weight: 600; font-size: 1rem; text-transform: uppercase; letter-spacing: 1.5px; margin-top: 0.5rem;">CEO & Lead Photographer</p>
+                    </div>
+
+                    <h4>My Inspiration</h4>
+                    <p>My passion for photography started from a deep appreciation for storytelling and the ability to preserve meaningful moments. I became fascinated by how a single photograph can capture emotions, memories, and experiences that last a lifetime. What began as a curiosity soon grew into a career. Whether it's a wedding, portrait session, family milestone, or personal brand shoot, I enjoy creating images that tell authentic stories.</p>
+
+                    <h4>The Alayor Difference</h4>
+                    <p>What sets me apart is my ability to combine creativity, storytelling, and professionalism across different photography genres. With access to a professional studio environment through ACES by Alayor, I am able to provide a seamless experience from concept development to final delivery.</p>
+                    <p>My goal is not just to create photographs, but to create images that leave a lasting impression and stand the test of time.</p>
+
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h4>500+</h4>
+                            <p>Weddings Shot</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>15+</h4>
+                            <p>Awards Won</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>100%</h4>
+                            <p>Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials section-padding container">
+            <div class="section-header reveal">
+                <h2>Kind Words</h2>
+                <p>What our clients are saying about our premium sessions.</p>
+                <div class="google-badge">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+                    <span>5.0 · 27 Reviews on Google</span>
+                    <div class="google-stars">★★★★★</div>
+                </div>
+            </div>
+
+            <!-- Testimonial Carousel -->
+            <div class="testimonial-carousel-wrapper reveal">
+                <button class="carousel-btn prev-btn" id="prevBtn" aria-label="Previous review">&#8592;</button>
+                
+                <div class="testimonial-carousel" id="testimonialCarousel">
+                    <!-- Review 1 -->
+                    <div class="testimonial-card-new active">
+                        <div class="quote-icon">“</div>
+                        <div class="stars-new">★★★★★</div>
+                        <p class="review-text">You are honestly the best photographer hands down. Your attention to detail, the warmth during shoots and events coverage, is it how you light up the mood with brides and groom exclusive photo session?? The list is long but you are amazing. On time delivery as well. Weldone Alayor photography 👌🏾</p>
+                        <div class="reviewer-info">
+                            <div class="reviewer-avatar" style="background: linear-gradient(135deg, #e62429, #8B1C24);">BG</div>
+                            <div class="reviewer-details">
+                                <h4>Blessing George</h4>
+                                <span class="review-date">A year ago · Google Review</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review 2 -->
+                    <div class="testimonial-card-new">
+                        <div class="quote-icon">“</div>
+                        <div class="stars-new">★★★★★</div>
+                        <p class="review-text">Alayor_photography is absolutely amazing! From start to finish, the experience was seamless and professional. They have an incredible eye for detail and captured moments I'll cherish forever. The photos were not only stunning but exceeded all my expectations in terms of quality and creativity. The ability to make everyone feel comfortable and natural in front of the camera is unmatched. @alayor_photography thank you for your phenomenal work.</p>
+                        <div class="reviewer-info">
+                            <div class="reviewer-avatar" style="background: linear-gradient(135deg, #7c3aed, #8b5cf6);">AT</div>
+                            <div class="reviewer-details">
+                                <h4>Adeyemo Temitope</h4>
+                                <span class="review-date">Edited a year ago · Google Review</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review 3 -->
+                    <div class="testimonial-card-new">
+                        <div class="quote-icon">“</div>
+                        <div class="stars-new">★★★★★</div>
+                        <p class="review-text">I had my baby boy's one year photoshoot in this studio and the outcome was classic. Their charge wasn't outrageous too. Repainting the number art works and cake stand will cap the professionalism though. But so you know, will recommend you anyday. Great job!</p>
+                        <div class="reviewer-info">
+                            <div class="reviewer-avatar" style="background: linear-gradient(135deg, #059669, #10b981);">DU</div>
+                            <div class="reviewer-details">
+                                <h4>Daberechi Ubabuko</h4>
+                                <span class="review-date">4 years ago · Google Review</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-btn next-btn" id="nextBtn" aria-label="Next review">&#8594;</button>
+            </div>
+
+            <!-- Dots Navigation -->
+            <div class="carousel-dots" id="carouselDots"></div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding container">
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <div class="section-header align-left" style="margin-bottom: 2rem;">
+                        <h2>Let's create something beautiful</h2>
+                        <p>Ready to book your session? Select a pricing package or drop us a line below. We'd love to host you in our studio.</p>
+                    </div>
+                    <div class="info-items">
+                        <div class="info-item">
+                            <span class="icon">📍</span>
+                            <div>
+                                <h5>Studio Address</h5>
+                                <p>ACES by Alayor, Lagos, Nigeria</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="icon">📞</span>
+                            <div>
+                                <h5>WhatsApp / Phone</h5>
+                                <p>+234 903 777 6862</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="icon">✉️</span>
+                            <div>
+                                <h5>Email</h5>
+                                <p>hello@alayorphotography.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/alayor_photography" target="_blank" class="social-link" aria-label="Instagram">IG</a>
+                        <a href="https://www.facebook.com/search/top?q=alayor%20photography%20studio" target="_blank" class="social-link" aria-label="Facebook">FB</a>
+                        <a href="https://www.tiktok.com/@alayor_photography?_r=1&_t=ZS-970pLtnJy3J" target="_blank" class="social-link" aria-label="TikTok">TT</a>
+                        <a href="https://wa.me/2349037776862" target="_blank" class="social-link" aria-label="WhatsApp">WA</a>
+                    </div>
+                </div>
+
+                <!-- White Floating Contact Form Card (UI/UX Template Match) -->
+                <div class="contact-form-wrapper reveal delay-1">
+                    <form class="contact-form">
+                        <div class="section-header">
+                            <h2>Contact Form</h2>
+                            <p>Get in touch and book your photoshoot.</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="interest">Photography Interest</label>
+                            <select id="interest" required>
+                                <option value="" disabled selected>Select a category</option>
+                                <option value="birthday">Birthday Session (₦70,000)</option>
+                                <option value="maternity">Maternity Session (₦80,000)</option>
+                                <option value="prewedding">Prewedding Session (₦100,000)</option>
+                                <option value="wedding">Wedding / Event Coverage</option>
+                                <option value="commercial">Commercial / Fashion Shoot</option>
+                                <option value="other">Other Unique Concept</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="4" required placeholder="Tell us about your vision for the shoot..."></textarea>
+                        </div>
+                        <button type="submit" class="btn form-btn full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="logo">
+                <img src="logo.png" alt="Alayor Photography Logo" class="footer-logo">
+            </div>
+            <p>&copy; 2026 Alayor Photography. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
